@@ -1,10 +1,15 @@
 @font-face {
   font-family: 'Lock';
-    url('https://dl.dropboxusercontent.com/scl/fi/59mz9eq4fwztg11l9fcwu/Lock.ttf?rlkey=z4ilv5pg5p3mlr7exvj817ykp&st=onxdvgl1') format('truetype'),
+  src:  url('https://dl.dropboxusercontent.com/scl/fi/iy7ubmb79aovcgv7o7qvb/Lock.eot?rlkey=ps55t0b7w0ymtwqjold5umkdp&st=xrd0lpx0&dl=0');
+  src:  url('https://dl.dropboxusercontent.com/scl/fi/iy7ubmb79aovcgv7o7qvb/Lock.eot?rlkey=ps55t0b7w0ymtwqjold5umkdp&st=xrd0lpx0&dl=0') format('embedded-opentype'),
+    url('https://dl.dropboxusercontent.com/scl/fi/59mz9eq4fwztg11l9fcwu/Lock.ttf?rlkey=z4ilv5pg5p3mlr7exvj817ykp&st=e2kdtdnr&dl=0') format('truetype'),
+    url('https://dl.dropboxusercontent.com/scl/fi/4sfaap3z8pmedhtlqhg6j/Lock.woff?rlkey=fgklbntv2yvll5d7lj8q4yfp1&st=e3ilxudd&dl=0') format('woff'),
+    url('https://dl.dropboxusercontent.com/scl/fi/wjr6jeema9kzuohwresce/Lock.svg?rlkey=brfju65v3dq8ugzvf66mi61cf&st=ccvnfzd5&dl=0') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
+
 
 .lk {
   /* use !important to prevent issues with browser extensions that change fonts */
