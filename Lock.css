@@ -1,0 +1,455 @@
+@font-face {
+  font-family: 'Lock';
+    url('https://dl.dropboxusercontent.com/scl/fi/59mz9eq4fwztg11l9fcwu/Lock.ttf?rlkey=z4ilv5pg5p3mlr7exvj817ykp&st=onxdvgl1') format('truetype'),
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.lk {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Lock' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.lk-ojomalvado2:before {
+  content: "\e900";
+}
+.lk-alquimia:before {
+  content: "\e901";
+}
+.lk-altair:before {
+  content: "\e902";
+}
+.lk-astronauta:before {
+  content: "\e903";
+}
+.lk-avengers:before {
+  content: "\e904";
+}
+.lk-batman:before {
+  content: "\e905";
+}
+.lk-brazalete:before {
+  content: "\e906";
+}
+.lk-Cigarrillos:before {
+  content: "\e907";
+}
+.lk-consola:before {
+  content: "\e908";
+}
+.lk-consola2:before {
+  content: "\e909";
+}
+.lk-creepermug:before {
+  content: "\e90a";
+}
+.lk-Cuchilla:before {
+  content: "\e90b";
+}
+.lk-deadpool:before {
+  content: "\e90c";
+}
+.lk-Dinamita:before {
+  content: "\e90d";
+}
+.lk-dragonb:before {
+  content: "\e90e";
+}
+.lk-ds:before {
+  content: "\e90f";
+}
+.lk-fawkes .path1:before {
+  content: "\e910";
+  color: rgb(43, 55, 62);
+}
+.lk-fawkes .path2:before {
+  content: "\e911";
+  margin-left: -1em;
+  color: rgb(43, 55, 62);
+}
+.lk-fawkes .path3:before {
+  content: "\e912";
+  margin-left: -1em;
+  color: rgb(43, 55, 61);
+}
+.lk-fawkes .path4:before {
+  content: "\e913";
+  margin-left: -1em;
+  color: rgb(43, 55, 61);
+}
+.lk-fawkes .path5:before {
+  content: "\e914";
+  margin-left: -1em;
+  color: rgb(43, 55, 62);
+}
+.lk-fawkes .path6:before {
+  content: "\e915";
+  margin-left: -1em;
+  color: rgb(43, 56, 62);
+}
+.lk-fawkes .path7:before {
+  content: "\e916";
+  margin-left: -1em;
+  color: rgb(43, 56, 62);
+}
+.lk-flash:before {
+  content: "\e917";
+}
+.lk-gafas:before {
+  content: "\e918";
+}
+.lk-golondrina:before {
+  content: "\e919";
+}
+.lk-groot .path1:before {
+  content: "\e91a";
+  color: rgb(43, 55, 62);
+}
+.lk-groot .path2:before {
+  content: "\e91b";
+  margin-left: -1em;
+  color: rgb(43, 55, 62);
+}
+.lk-groot .path3:before {
+  content: "\e91c";
+  margin-left: -1em;
+  color: rgb(43, 55, 61);
+}
+.lk-heridasangre:before {
+  content: "\e91d";
+}
+.lk-hockey .path1:before {
+  content: "\e91e";
+  color: rgb(43, 55, 61);
+}
+.lk-hockey .path2:before {
+  content: "\e91f";
+  margin-left: -1em;
+  color: rgb(43, 56, 62);
+}
+.lk-hockey .path3:before {
+  content: "\e920";
+  margin-left: -1em;
+  color: rgb(43, 56, 62);
+}
+.lk-hockey .path4:before {
+  content: "\e921";
+  margin-left: -1em;
+  color: rgb(43, 56, 62);
+}
+.lk-hockey .path5:before {
+  content: "\e922";
+  margin-left: -1em;
+  color: rgb(43, 56, 62);
+}
+.lk-hockey .path6:before {
+  content: "\e923";
+  margin-left: -1em;
+  color: rgb(43, 56, 62);
+}
+.lk-hockey .path7:before {
+  content: "\e924";
+  margin-left: -1em;
+  color: rgb(43, 56, 62);
+}
+.lk-hockey .path8:before {
+  content: "\e925";
+  margin-left: -1em;
+  color: rgb(42, 55, 61);
+}
+.lk-hockey .path9:before {
+  content: "\e926";
+  margin-left: -1em;
+  color: rgb(42, 55, 61);
+}
+.lk-hockey .path10:before {
+  content: "\e927";
+  margin-left: -1em;
+  color: rgb(42, 55, 61);
+}
+.lk-hockey .path11:before {
+  content: "\e928";
+  margin-left: -1em;
+  color: rgb(43, 55, 62);
+}
+.lk-hockey .path12:before {
+  content: "\e929";
+  margin-left: -1em;
+  color: rgb(43, 55, 62);
+}
+.lk-hockey .path13:before {
+  content: "\e92a";
+  margin-left: -1em;
+  color: rgb(43, 56, 62);
+}
+.lk-hockey .path14:before {
+  content: "\e92b";
+  margin-left: -1em;
+  color: rgb(44, 56, 62);
+}
+.lk-hockey .path15:before {
+  content: "\e92c";
+  margin-left: -1em;
+  color: rgb(43, 56, 62);
+}
+.lk-hockey .path16:before {
+  content: "\e92d";
+  margin-left: -1em;
+  color: rgb(43, 56, 62);
+}
+.lk-hockey .path17:before {
+  content: "\e92e";
+  margin-left: -1em;
+  color: rgb(43, 56, 62);
+}
+.lk-hockey .path18:before {
+  content: "\e92f";
+  margin-left: -1em;
+  color: rgb(42, 55, 61);
+}
+.lk-hockey .path19:before {
+  content: "\e930";
+  margin-left: -1em;
+  color: rgb(42, 55, 61);
+}
+.lk-hockey .path20:before {
+  content: "\e931";
+  margin-left: -1em;
+  color: rgb(42, 55, 61);
+}
+.lk-hockey .path21:before {
+  content: "\e932";
+  margin-left: -1em;
+  color: rgb(42, 55, 61);
+}
+.lk-illuminati:before {
+  content: "\e933";
+}
+.lk-ironman:before {
+  content: "\e934";
+}
+.lk-Jack .path1:before {
+  content: "\e935";
+  color: rgb(43, 55, 62);
+}
+.lk-Jack .path2:before {
+  content: "\e936";
+  margin-left: -1em;
+  color: rgb(43, 55, 61);
+}
+.lk-Jack .path3:before {
+  content: "\e937";
+  margin-left: -1em;
+  color: rgb(43, 55, 62);
+}
+.lk-Jack .path4:before {
+  content: "\e938";
+  margin-left: -1em;
+  color: rgb(43, 55, 61);
+}
+.lk-Jack .path5:before {
+  content: "\e939";
+  margin-left: -1em;
+  color: rgb(43, 55, 62);
+}
+.lk-Jack .path6:before {
+  content: "\e93a";
+  margin-left: -1em;
+  color: rgb(43, 55, 62);
+}
+.lk-justicia:before {
+  content: "\e93b";
+}
+.lk-laberinto:before {
+  content: "\e93c";
+}
+.lk-librooculto:before {
+  content: "\e93d";
+}
+.lk-linterna-verde:before {
+  content: "\e93e";
+}
+.lk-mandalorian:before {
+  content: "\e93f";
+}
+.lk-mario .path1:before {
+  content: "\e940";
+  color: rgb(43, 55, 62);
+}
+.lk-mario .path2:before {
+  content: "\e941";
+  margin-left: -1em;
+  color: rgb(43, 56, 62);
+}
+.lk-mechero:before {
+  content: "\e942";
+}
+.lk-monedamaldita:before {
+  content: "\e943";
+}
+.lk-monedarota:before {
+  content: "\e944";
+}
+.lk-ojomalvado:before {
+  content: "\e945";
+}
+.lk-ojosol:before {
+  content: "\e946";
+}
+.lk-ouija:before {
+  content: "\e947";
+}
+.lk-parabatai:before {
+  content: "\e948";
+}
+.lk-pj:before {
+  content: "\e949";
+}
+.lk-pokedex:before {
+  content: "\e94a";
+}
+.lk-pokemap .path1:before {
+  content: "\e94b";
+  color: rgb(43, 55, 61);
+}
+.lk-pokemap .path2:before {
+  content: "\e94c";
+  margin-left: -1em;
+  color: rgb(43, 55, 62);
+}
+.lk-pokemon .path1:before {
+  content: "\e94d";
+  color: rgb(43, 55, 62);
+}
+.lk-pokemon .path2:before {
+  content: "\e94e";
+  margin-left: -1em;
+  color: rgb(43, 55, 62);
+}
+.lk-pokemon .path3:before {
+  content: "\e94f";
+  margin-left: -1em;
+  color: rgb(43, 55, 61);
+}
+.lk-psyduck .path1:before {
+  content: "\e950";
+  color: rgb(43, 55, 62);
+}
+.lk-psyduck .path2:before {
+  content: "\e951";
+  margin-left: -1em;
+  color: rgb(43, 56, 62);
+}
+.lk-psyduck .path3:before {
+  content: "\e952";
+  margin-left: -1em;
+  color: rgb(43, 56, 62);
+}
+.lk-psyduck .path4:before {
+  content: "\e953";
+  margin-left: -1em;
+  color: rgb(43, 56, 62);
+}
+.lk-psyduck .path5:before {
+  content: "\e954";
+  margin-left: -1em;
+  color: rgb(43, 55, 61);
+}
+.lk-relojdigital .path1:before {
+  content: "\e955";
+  color: rgb(42, 55, 61);
+}
+.lk-relojdigital .path2:before {
+  content: "\e956";
+  margin-left: -1em;
+  color: rgb(43, 55, 62);
+}
+.lk-relojdigital .path3:before {
+  content: "\e957";
+  margin-left: -1em;
+  color: rgb(43, 55, 62);
+}
+.lk-relojinteligente:before {
+  content: "\e958";
+}
+.lk-rosavientos:before {
+  content: "\e959";
+}
+.lk-startrek:before {
+  content: "\e95a";
+}
+.lk-stormtrooper:before {
+  content: "\e95b";
+}
+.lk-superman:before {
+  content: "\e95c";
+}
+.lk-switch:before {
+  content: "\e95d";
+}
+.lk-tamagotchi:before {
+  content: "\e95e";
+}
+.lk-tarot:before {
+  content: "\e95f";
+}
+.lk-telescopio:before {
+  content: "\e960";
+}
+.lk-tenebrosa:before {
+  content: "\e961";
+}
+.lk-thor:before {
+  content: "\e962";
+}
+.lk-timn:before {
+  content: "\e963";
+}
+.lk-totoro .path1:before {
+  content: "\e964";
+  color: rgb(43, 55, 62);
+}
+.lk-totoro .path2:before {
+  content: "\e965";
+  margin-left: -1em;
+  color: rgb(43, 55, 61);
+}
+.lk-trekkie:before {
+  content: "\e966";
+}
+.lk-tresenraya .path1:before {
+  content: "\e967";
+  color: rgb(43, 56, 62);
+}
+.lk-tresenraya .path2:before {
+  content: "\e968";
+  margin-left: -1em;
+  color: rgb(43, 56, 62);
+}
+.lk-tresenraya .path3:before {
+  content: "\e969";
+  margin-left: -1em;
+  color: rgb(43, 55, 61);
+}
+.lk-tresenraya .path4:before {
+  content: "\e96a";
+  margin-left: -1em;
+  color: rgb(43, 56, 62);
+}
+.lk-veneno:before {
+  content: "\e96b";
+}
+.lk-xmen:before {
+  content: "\e96c";
+}
